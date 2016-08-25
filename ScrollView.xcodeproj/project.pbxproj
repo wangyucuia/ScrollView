@@ -14,6 +14,12 @@
 		A015A19A1D6D884E009877AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A015A1981D6D884E009877AE /* LaunchScreen.storyboard */; };
 		A015A1A51D6D884E009877AE /* ScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015A1A41D6D884E009877AE /* ScrollViewTests.swift */; };
 		A015A1B01D6D884E009877AE /* ScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015A1AF1D6D884E009877AE /* ScrollViewUITests.swift */; };
+		A015A1C51D6D8C64009877AE /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015A1C31D6D8C64009877AE /* LeftView.swift */; };
+		A015A1C61D6D8C64009877AE /* LeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A015A1C41D6D8C64009877AE /* LeftView.xib */; };
+		A015A1C91D6D8C78009877AE /* RigthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015A1C71D6D8C78009877AE /* RigthView.swift */; };
+		A015A1CA1D6D8C78009877AE /* RigthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A015A1C81D6D8C78009877AE /* RigthView.xib */; };
+		A015A1CF1D6D8D64009877AE /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015A1CD1D6D8D64009877AE /* CameraView.swift */; };
+		A015A1D01D6D8D64009877AE /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A015A1CE1D6D8D64009877AE /* CameraView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		A015A1AB1D6D884E009877AE /* ScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A015A1AF1D6D884E009877AE /* ScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUITests.swift; sourceTree = "<group>"; };
 		A015A1B11D6D884E009877AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A015A1C31D6D8C64009877AE /* LeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftView.swift; path = ../LeftView.swift; sourceTree = "<group>"; };
+		A015A1C41D6D8C64009877AE /* LeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeftView.xib; path = ../LeftView.xib; sourceTree = "<group>"; };
+		A015A1C71D6D8C78009877AE /* RigthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigthView.swift; sourceTree = "<group>"; };
+		A015A1C81D6D8C78009877AE /* RigthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RigthView.xib; sourceTree = "<group>"; };
+		A015A1CD1D6D8D64009877AE /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A015A1CE1D6D8D64009877AE /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				A015A18F1D6D884E009877AE /* AppDelegate.swift */,
 				A015A1911D6D884E009877AE /* ViewController.swift */,
+				A015A1C31D6D8C64009877AE /* LeftView.swift */,
+				A015A1C41D6D8C64009877AE /* LeftView.xib */,
+				A015A1C71D6D8C78009877AE /* RigthView.swift */,
+				A015A1C81D6D8C78009877AE /* RigthView.xib */,
+				A015A1CD1D6D8D64009877AE /* CameraView.swift */,
+				A015A1CE1D6D8D64009877AE /* CameraView.xib */,
 				A015A1931D6D884E009877AE /* Main.storyboard */,
 				A015A1961D6D884E009877AE /* Assets.xcassets */,
 				A015A1981D6D884E009877AE /* LaunchScreen.storyboard */,
@@ -235,6 +253,9 @@
 				A015A19A1D6D884E009877AE /* LaunchScreen.storyboard in Resources */,
 				A015A1971D6D884E009877AE /* Assets.xcassets in Resources */,
 				A015A1951D6D884E009877AE /* Main.storyboard in Resources */,
+				A015A1D01D6D8D64009877AE /* CameraView.xib in Resources */,
+				A015A1C61D6D8C64009877AE /* LeftView.xib in Resources */,
+				A015A1CA1D6D8C78009877AE /* RigthView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +282,9 @@
 			files = (
 				A015A1921D6D884E009877AE /* ViewController.swift in Sources */,
 				A015A1901D6D884E009877AE /* AppDelegate.swift in Sources */,
+				A015A1C51D6D8C64009877AE /* LeftView.swift in Sources */,
+				A015A1CF1D6D8D64009877AE /* CameraView.swift in Sources */,
+				A015A1C91D6D8C78009877AE /* RigthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
